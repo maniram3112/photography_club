@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 0rem; */
     background: transparent;
     position: fixed;
     z-index: 1;
@@ -11,12 +10,10 @@
     left: 0;
     height: 125px;
     transition: height 0.3s ease-in-out, background 0.3s ease-in-out;
-    /* color: var(--gradient-text); */
 }
 
 .navbar.scrolled{
-    background: #494f55;
-    transition: background 0.3s ease-in-out;
+    background: #696d71;
     height: 85px;
     z-index: 100;
 }
@@ -36,8 +33,6 @@
 }
 
 .navbar-links_logo img{
-    /* justify-content: center;
-    align-items: center; */
     width: 100px;
     height: 100px;
     margin: 2rem;
@@ -55,7 +50,6 @@
     align-items: center;
     font-size: 22px;
     cursor: pointer;
-    /* white-space: nowrap; */
     margin-left: 1rem;
     transition: all 0.5s ease-in-out;
 }
@@ -80,10 +74,8 @@
 
 .navbar-links_container p,
 .navbar-menu_container p,
-.dropdown-toggle
-{
+.dropdown-toggle{
     font-family: var(--font-family);
-    /* margin: 50px; */
     font-weight: 500;
     font-size: 18px;
     line-height: 25px;
@@ -100,8 +92,7 @@
 
 .navbar-links_container p:hover,
 .dropdown-toggle:hover,
-.navbar-menu:hover
-{
+.navbar-menu:hover{
     color: rgb(97, 251, 202);
 }
 
@@ -115,8 +106,7 @@
     cursor: pointer;
 }
 
-.navbar-menu_container
-{
+.navbar-menu_container{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -139,27 +129,28 @@
     color: rgb(97, 251, 202);
 }
 
-/* .navbar-links_container p{
-    margin: 1rem 0;
-} */
-
 @media screen and (max-width: 1050px){
     .navbar{
-        height: 20%;
+        height: 10%;
         background: gray;
     }
 
     .navbar-links_logo img{
         height: 75px;
         width: 75px;
+        margin-left: 0;
+    }
+
+    .navbar-links_title{
+        font-size: 18px;
+    }
+
+    .navbar-links_title:hover{
+        font-size: 18px;
     }
 
     .navbar-links_container{
         display: none;
-    }
-
-    .carousel_btn{
-        margin: 20px;
     }
 
     .dropdown-toggle{
@@ -171,9 +162,22 @@
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
     .navbar{
         padding: 2rem 4rem;
+    }
+
+    .navbar-links_logo img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .navbar-links_title{
+        font-size: 16px;
+    }
+
+    .navbar-links_title:hover{
+        font-size: 16px;
     }
 }
 
@@ -185,5 +189,20 @@
     .navbar-menu_container{
         margin-top: 35px;
         top: 20px;
+        margin-right: 0;
+    }
+
+    .navbar-links_logo img{
+        height: 50px;
+        width: 50px;
+        margin: 1rem;
+    }
+
+    .navbar-links_title{
+        font-size: 14px;
+    }
+
+    .navbar-links_title:hover{
+        font-size: 14px;
     }
 }

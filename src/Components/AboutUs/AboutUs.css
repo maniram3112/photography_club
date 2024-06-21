@@ -58,3 +58,56 @@
     max-width: 500px;
     border-radius: 8px;
 }
+
+
+@media screen and (max-width: 1050px){
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us_title{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .about-us_title h2{
+        font-size: 2rem;
+    }
+
+    .about-us_title-content p{
+        font-size: 1.2rem;
+    }
+
+    .about-us_introVid video{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .about-us_title h2{
+        font-size: 1.8rem;
+    }
+
+    .about-us_title-content p{
+        font-size: 1.2rem;
+    }
+
+    .about-us_introVid video{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .about-us_title h2{
+        font-size: 1.5rem;
+    }
+
+    .about-us_title-content p{
+        font-size: 1.1rem;
+    }
+
+    .about-us_introVid video{
+        max-width: 100%;
+    }
+}

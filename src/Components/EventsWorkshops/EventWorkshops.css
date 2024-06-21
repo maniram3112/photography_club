@@ -101,3 +101,83 @@
 .btnn a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1050px){
+    .heading  h2{
+        font-size: 32px;
+    }
+
+    .heading p{
+        font-size: 16px;
+    }
+
+    .posters-grid{
+        width: 250px;
+    }
+
+    .posters-grid-item h3{
+        font-size: 20px;
+    }
+
+    .posters-grid-item li{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .heading h2{
+        font-size: 28px;
+    }
+
+    .heading p{
+        font-size: 14px;
+    }
+
+    .posters-grid{
+        width: 45%;
+    }
+
+    .posters-grid-item h3{
+        font-size: 18px;
+    }
+
+    .posters-grid-item li{
+        font-size: 12px;
+    }
+
+    .btnn{
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .events{
+        padding: 20px 10px;
+    }
+
+    .heading h2{
+        font-size: 24px;
+    }
+
+    .heading p{
+        font-size: 12px;
+    }
+
+    /* .posters-grid{
+        width: 45%;
+    } */
+
+    .posters-grid-item h3{
+        font-size: 16px;
+    }
+
+    .posters-grid-item li{
+        font-size: 12px;
+    }
+
+    .btnn{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}

@@ -69,8 +69,8 @@
     border-radius: 10px;
     overflow: hidden;
     width: 100%;
-    padding-top: 75%; /* Adjust this to match your image aspect ratio */
-    background-color: #fff; /* Set a background color for loading effect */
+    padding-top: 75%;
+    background-color: #fff;
 }
 
 .feature-image img {
@@ -120,4 +120,51 @@
 .feature-upload a {
     color: #fff;
     text-decoration: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .feature-grid_item {
+        width: 45%;
+    }
+
+    .feature-heading h2 {
+        font-size: 32px;
+    }
+
+    .feature-heading p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .feature-grid_item {
+        width: 45%;
+    }
+
+    .feature-heading h2 {
+        font-size: 28px;
+    }
+
+    .feature-heading p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .features {
+        padding: 20px 10px;
+    }
+
+    .feature-heading h2 {
+        font-size: 24px;
+    }
+
+    .feature-heading p {
+        font-size: 12px;
+    }
+
+    .feature-upload button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
 }

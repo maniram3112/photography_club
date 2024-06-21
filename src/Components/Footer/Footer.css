@@ -40,3 +40,39 @@
     font-size: 0.9em;
     color: #666;
 }
+
+@media screen and (max-width: 1050px){
+    .footer-social-media p{
+        font-size: 1.1rem;
+    }
+
+    .footer-social-media .fa-icon{
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .footer-social-media{
+        flex-direction: row;
+    }
+
+    .footer-social-media p{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .footer-social-media .fa-icon{
+        font-size: 1.3rem;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .footer-social-media p{
+        font-size: 0.9em;
+    }
+
+    .footer-social-media .fa-icon{
+        font-size: 1.2rem;
+    }
+}

@@ -102,3 +102,87 @@
     background: #fff;
     color: #333;
 }
+
+@media screen and (max-width: 1050px) {
+    .club_members-heading h2{
+        font-size: 32px;
+    }
+
+    .club_members-heading p{
+        font-size: 16px;
+    }
+
+    .profile-grid{
+        width: 220px;
+    }
+
+    .profile-grid-item h4{
+        font-size: 20px;
+    }
+
+    .profile-grid-item h3{
+        font-size: 16px;
+    }
+
+    .profile-grid-item a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .club_members-heading h2{
+        font-size: 28px;
+    }
+
+    .club_members-heading p{
+        font-size: 14px;
+    }
+
+    .profile-grid{
+        width: 200px;
+    }
+
+    .profile-grid-item h4{
+        font-size: 18px;
+    }
+
+    .profile-grid-item h3{
+        font-size: 14px;
+    }
+
+    .profile-grid-item a{
+        font-size: 16px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .club_members{
+        padding: 40px 10px;
+    }
+
+    .club_members-heading h2{
+        font-size: 24px;
+    }
+
+    .club_members-heading p{
+        font-size: 12px;
+    }
+
+    .profile-grid{
+        width: 50%;
+    }
+
+    .profile-grid-item h4{
+        font-size: 16px;
+    }
+
+    .profile-grid-item h3{
+        font-size: 12px;
+    }
+
+    .profile-grid-item a{
+        font-size: 14px;
+        padding: 5px;
+    }
+}
