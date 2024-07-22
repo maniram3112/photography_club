@@ -9,14 +9,11 @@ const Dropdown=()=>{
     const[selectedOption, setSelectedOption] = useState(null);
 
     const clgEve = [
-        {eveName:'Republic Day', value:'1', url:'https://example.com/republic-day'},
-        {eveName:'PARSEC', value:'2', url:'https://example.com/republic-day'},
-        {eveName:'GC', value:'3', url:'https://example.com/republic-day'},
-        {eveName:'Holi', value:'4', url:'https://example.com/republic-day'},
-        {eveName:'Farewell', value:'5', url:'https://example.com/republic-day'},
-        {eveName:'Independence Day', value:'6', url:'https://example.com/republic-day'},
-        {eveName:'E Summit', value:'7', url:'https://example.com/republic-day'},
-        {eveName:'Diwali', value:'8', url:'https://example.com/republic-day'}
+        {eveName:'event1', value:'1', url:'https://example.com/event1'},
+        {eveName:'event2', value:'2', url:'https://example.com/event1'},
+        {eveName:'event3', value:'3', url:'https://example.com/event1'},
+        {eveName:'event4', value:'4', url:'https://example.com/event1'},
+        {eveName:'event5', value:'5', url:'https://example.com/event1'}
     ]
 
     const toggleDropdown =()=>{
