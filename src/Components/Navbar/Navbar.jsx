@@ -21,15 +21,15 @@ const Menu = () =>(
 
 const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
-    const [title, setTitle] = useState('Focus');
+    // const [title, setTitle] = useState('Focus');
     const [scrolled, setScrolled] = useState(false);
 
-    const handleMouseEnter = () =>{
-        setTitle('Photography and Videography club');
-    }
-    const handleMouseLeave=()=>{
-        setTitle('Focus');
-    }
+    // const handleMouseEnter = () =>{
+    //     setTitle('Photography and Videography club');
+    // }
+    // const handleMouseLeave=()=>{
+    //     setTitle('Focus');
+    // }
 
     const handleScroll = () =>{
         const offset = window.scrollY;
@@ -53,9 +53,10 @@ const Navbar = () => {
                 <div className='navbar-links_logo'>
                     <img src={images.logo4} alt='logo'/>
                     <p className='navbar-links_title'
-                    onMouseEnter={handleMouseEnter}
-                    onMouseLeave={handleMouseLeave}
-                    >{title}</p>
+                    // onMouseEnter={handleMouseEnter}
+                    // onMouseLeave={handleMouseLeave}
+                    // >{title}</p>
+                    >Snap Syndicate</p>
                 </div>
                 <div className='navbar-links_container'>
                     <Menu/>

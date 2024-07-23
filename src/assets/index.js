@@ -12,7 +12,6 @@ import homeVideo2 from './introVideos/homeVideo2.mp4'
 import logo from './logo/logo.png'
 import logo1 from './logo/logo1.jpeg'
 import logo2 from './logo/logo2.jpeg'
-import logo3 from './logo/logo3.jpeg'
 import logo4 from './logo/logo4.png'
 import profilePic1 from './profilePic/profilePic1.jpg'
 import profilePic2 from './profilePic/profilePic2.jpg'
@@ -33,7 +32,6 @@ const images =
         logo,
         logo1,
         logo2,
-        logo3,
         logo4,
         workshop,
         profilePic1,
